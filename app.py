@@ -15,3 +15,15 @@ z = float( 3 )
 
 print(type( x ))
 print(type( y ))
+
+x, y, z = 'Orange', 'Banana', 'Cherry'
+print(x, y, z )
+
+#! OR
+
+x = y = z = 'Orange'
+print( x, y, z )
+
+fruits = ['apple', 'banana', 'cherry']
+x, y, z = fruits
+print( x, y, z )
